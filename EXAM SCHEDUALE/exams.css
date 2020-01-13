@@ -1,0 +1,118 @@
+/*
+Bavalan Thangarajah
+Student# 1002194564
+CSCB20: My exam timetable
+This assignment is for the purpose of creating a utsc exam scheduale website. 
+This file is the css document which correlates to the file of 
+course.php and search.php.This where the editing of the design of the website will take place.
+This where style sheet occurs formatting,coloring,font size etc are applied here and then will
+transfer all the information applied here to the website 
+and update it's image.
+*/
+
+/* The entire page */
+body{
+
+	/*The background color of the entire page*/
+	background-color: #D3D3D3;
+	/* Apply a margin and padding of 0*/
+	margin:0;
+	padding: 0;
+	/* Whole page has font style Verdana.*/
+	font-family:Verdana;
+
+}
+
+/*The contents inside the main border*/
+.frame{
+
+	/*Border color and size*/
+	border: #000080 solid 20px;
+	margin:auto;
+	/*The background color within border*/
+	background-color: white;
+	padding: 40px;
+	/*The space the border occupies on the page*/
+	width:1100px;
+	margin-top:10px;
+
+}
+
+/*The button*/
+.search{
+	/*Color of button is gray*/
+	background-color: #D3D3D3;
+
+}
+
+/* Header within border*/
+h2{
+	/*Text is centered and has a color of blue*/
+	color:#000080;
+	text-align:center;
+}
+
+/*Info of the row*/
+tr{
+	text-align: center;
+}
+
+/*Exam table*/
+table{
+
+	/*Border information*/
+   border: 1px solid #D3D3D3;
+   /*The space the border occupies on the page*/
+   width: 80%;
+   margin: auto;
+   /*Back ground color of border*/
+   background-color: #D3D3D3;
+   border-collapse: collapse;
+
+}
+
+/*The headings of the tables*/
+th{
+	/*Text is bold.centered and has a background color of gray*/
+	text-align: center;
+	padding: 5px;
+	background-color: #D3D3D3;
+	font-weight: bold;
+
+
+}
+
+/*Exam info*/
+td{
+	padding: 5px;
+	background-color: white;
+}
+
+/*The form*/
+.coursesearch{
+	text-align: center;
+}
+
+/*Title of exam border*/
+legend {
+    display: block;
+    padding: 15px;
+    border: none;
+}
+
+/*The field set*/
+fieldset { 
+	width: 60%; 
+	margin: auto;
+	padding-bottom: 15px;
+
+}
+
+/*Uoft Logo*/
+.uoft{
+	width: 150px;
+}
+.pic{
+	text-align: center;
+	padding: 10px;
+}

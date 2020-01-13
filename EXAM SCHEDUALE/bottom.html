@@ -1,0 +1,44 @@
+<!--
+Bavalan Thangarajah
+Student# 1002194564
+CSCB20: My exam timtable
+This assignment is for the purpose of creating an exam scheduale website. 
+This file is the bottom.html document which contains the drop down scroll bar
+a search box and button, when clicked will activate the functionality needed
+to display the exam timetable.
+This file will be connected to course.php and search.php--> 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Exam Timetable</title>
+        <meta charset="utf-8"/>
+
+    </head>
+
+    <body>
+        <form class="coursesearch">
+            <fieldset>
+                <!-- The title of the border-->
+                <legend>Search Exams</legend>
+                <!-- The search box for course code-->
+                <input type="text" name="coursecode" id="searchbox" placeholder="course code">
+                <!-- The search button course code-->
+                <button class="search" id="search">Search Course</button>
+                <!-- The search box for instructor name-->
+                <input type="text" name="coursecode" id="searchboxb" placeholder="instructor name">
+                <!-- The search button instructor name-->
+                <button class="search" id="searchb">Search Instructor</button>               
+                 <!-- The scroll drop down menu-->
+                <select id="scroll">
+                    <!-- The default scroll option-->
+                    <option>Choose A Course</option>
+                </select>
+            </fieldset>
+        </form>
+        <!-- The UOFT image-->
+        <div class="pic">
+            <img class ="uoft" src="https://cmslab.utsc.utoronto.ca/courses/cscb20w17/bretsche/assignments/a3/utsc.png" alt="UOFT!" />
+        </div>
+    </body>
+</html>
